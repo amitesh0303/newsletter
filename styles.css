@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
   }
 
   body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB;
   }
 
   .author-info {
@@ -17,4 +23,70 @@
 
   .author-info a {
     text-decoration: none;
+  }
+
+  #main-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+  }
+
+  #logo{
+
+  }
+
+  #main-container h1{
+    font-weight: 600;
+    font-size:3rem;
+  }
+  #main-container h6{
+    font-weight: 400;
+    font-size:1.25rem;
+    margin:1rem;
+    color:#6C727F;
+  }
+
+  #form-card{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    padding:20px;
+    border-radius:10px;
+    margin-top: 3rem;
+    margin-bottom:1rem;
+    background-color: #FFFFFF;
+  }
+
+  input{
+    font-weight: 500;
+    font-size: 1rem;
+    outline:none;
+    border:none;
+    padding: 16px;
+    width: 480px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #E5E7EB;
+    background-color: #F9FAFB;
+  }
+
+  button{
+    font-weight: 600;
+    font-size: 1rem;
+    outline:none;
+    border:none;
+    background-color: #284BCE;
+    padding:16px;
+    width: 480px;
+    border-radius: 8px;
+    color:#FFFFFF;
+  }
+
+  span{
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 20px;
+    color:#394150;
   }
